@@ -1,0 +1,200 @@
+body, html {
+    height: 125vh;
+    margin: 0;
+    font: 400 17px/1.8 "Lato", sans-serif;
+    margin-top: 37px;
+}
+/* @media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+} */
+
+header {
+    background-image: url(./Books.jpeg);
+    min-height: 100%;
+    max-width: 100%; height: auto;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    width: 100%;
+}
+#home, #submission, #about {
+    background-color: white;
+    padding: 50px 80px;
+    text-align: justify;
+}
+.NavBar {
+    overflow: auto;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(44, 44, 231);
+}
+.NavBar ul{
+    display: inline-flex;
+    float: right;
+    margin-right: 3%;
+}
+.NavBar a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2500em;
+    margin: 0.6250em;
+}
+a:hover {
+    background: linear-gradient(to right, rgb(216, 29, 216), rgb(98, 16, 250)); 
+}
+#Navlogo a {
+   margin: 0.2778em;
+   float: left;
+   display: flex;
+   align-items: center;
+}
+#Navlogo a h3 {
+    margin-left: 5px;
+}
+.NavBar li{
+    display: inline-block;
+}
+#nav-image {
+    background-image: url("image3.png");
+    width: 150px;
+    height: 100px; 
+    /* background-size: 100% 100%; */
+    background-repeat: no-repeat;
+    position: relative;
+    } 
+.toppage {
+    margin: 0.2778em;
+    padding: 0.2778em;
+    overflow: hidden;
+}
+.logo img{
+    margin: 0.5556em;
+    padding: 0.2778em;
+    float: left;
+    width: 18.75em;
+    max-width: 100%; 
+    height: auto;
+}
+.page-header h1 {
+    text-align: center;
+    font-size: 3em;
+    font-style: italic;
+    overflow: hidden;
+    padding: 1em;
+}
+.subheader h1 {
+    text-align: center;
+    font-size: 2.5em;
+    /* font-style: italic; */
+    overflow: hidden;
+    /* padding: 1.25em; */
+}
+#homepara {
+    text-align: justify;
+    line-height: 1.875em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0.3125em 0 0.3125em;
+    padding: 50px 80px;
+}
+.homepara p img {
+    float: right;
+    line-height: 30px;
+    padding: 0.6250em;
+    margin: 0.6250em;
+}
+.bookbanner img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100%; height: auto;
+}
+.sub {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5625em;
+    margin: 0 5px 0 5px;
+}
+.list1 {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0.3125em 0 0.6250em;
+    line-height: 1.2500em;
+}
+.list2 li {
+    list-style-type: circle;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2500em;
+    margin: 0 0.3125em 0 3.125em;
+}
+.list3 li {
+    list-style-type: square;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5625em;
+    margin: 0 0.3125em 0 6.25em;
+}
+.list4 {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2500em;
+    margin: 0 0.3125em 0 0.6250em;
+}
+.list5 li {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5625em;
+    margin: 0 0.3125em 0 0.3125em;
+}
+.contact {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5625em;
+    margin: 0 0.3125em 0 0.3125em;
+}
+.footer {
+    padding:40px 0;
+    width: 100%;
+    background-color:#282d32;
+    color:#4b4c4d;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.footer ul {
+    padding:0;
+    display: flex;
+    justify-content: center;
+    list-style:none;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+}
+.footer li {
+    padding:0 10px;
+ }
+  
+.footer ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+}
+.footer ul a:hover {
+    opacity:1;
+}
+.footer .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+}

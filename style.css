@@ -1,0 +1,279 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body, html {
+    height: 125vh;
+    margin: 0;
+    padding: 0;
+    font: 400 17px/2.5 "Lato", sans-serif;
+    /* margin-top: 37px; */
+}
+header {
+    background-image: url(./Books.jpeg);
+    min-height: 100%;
+    max-width: 100%; height: auto;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    width: 100%;
+}
+nav {
+    background:rgba(0, 173, 255, 1);
+    padding: 0 15px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+#nav_logo {
+    display: flex;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 30px;
+}
+.nav_menu {   
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav_menu li:first-child {
+   margin-right: auto;
+}
+.nav_menu li a {
+    display: block;
+    padding: 15px 5px;
+}
+.nav_item {
+    padding: 10px;
+}
+.NavBar li{
+    display: inline-flex;
+
+}
+.NavBar a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 0.6250em;
+}
+.logo {
+    margin-left: auto;
+}
+.menu {
+    display: block;
+    margin-right: 40px;
+    text-align: right;
+}
+.menu .icon {
+    display: none;
+} */
+/* a:hover {
+    background: linear-gradient(to right, rgb(216, 29, 216), rgb(98, 16, 250)); 
+} */
+#nav-image {
+    background-image: url("image3.png");
+    width: 150px;
+    height: 100px; 
+    /* background-size: 100% 100%; */
+    background-repeat: no-repeat;
+    position: relative;
+} 
+.toppage {
+    overflow: hidden;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px 80px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.logo img {
+    margin: 0.5556em;
+    padding: 0.2778em;
+    float: left;
+    width: 300px;
+    max-width: 90%; 
+    height: auto;
+}
+.page-header h1 {
+    text-align: center;
+    font-size: 4vw;
+    /* font-style: italic; */
+    overflow: hidden;
+    padding: 30px;
+}
+@media screen and (min-width: 601px) {
+    .page-header h1 {
+     font-size: 50px;
+    }
+}
+.subheader h1 {
+    text-align: center;
+    font-size: 2.5em;
+    /* font-style: italic; */
+    /* padding: 1.25em; */
+}
+/********************* Home Section *******************/
+
+.homepara {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px 80px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.homepara p img {
+    float: right;
+    line-height: 30px;
+    padding: 0.6250em;
+    margin: 0.6250em;
+}
+.bookbanner img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100%; height: auto;
+}
+
+/************************* Submission Section****************************/
+
+/* #submission {
+    box-sizing: content-box;
+    padding: 50px 80px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5625em;
+    margin: 0 5px 0 5px;
+} */
+.list1 {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0.3125em 0 0.6250em;
+    line-height: 1.2500em;
+}
+.list2 li {
+    list-style-type: circle;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2500em;
+    margin: 0 0.3125em 0 3.125em;
+}
+.list3 li {
+    list-style-type: square;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5625em;
+    margin: 0 0.3125em 0 6.25em;
+}
+.list4 {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2500em;
+    margin: 0 0.3125em 0 0.6250em;
+}
+.list5 li {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5625em;
+    margin: 0 0.3125em 0 0.3125em;
+}
+
+/******** Footer CSS **********/
+#footer {
+    padding: 40px 0;
+    position: absolute;
+    width: 100%;
+    background-color: #282d32;
+    color: #4b4c4d;
+    left: 0;
+    margin-top: 80px;
+}
+#footer ul {
+    padding:0;
+    display: flex;
+    justify-content: center;
+    list-style:none;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+}
+#footer li {
+    padding:0 10px;
+ }
+  
+#footer ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+}
+#footer ul a:hover {
+    opacity:1;
+}
+#footer .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+}
+
+/*************** FAQ CSS ***********/
+
+
+#faq_logo {
+    /* display: flex; */
+    width: 100%;
+    top: 0;
+    background: black;
+    position: sticky;
+}
+#faq_logo h1 {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.faq {
+    box-sizing: border-box;
+    border-bottom: thin solid rgb(211, 211, 211);
+}
+.faq_h3 {
+    font-family: cursive!important;
+    font-weight: 100;
+    color:#00adff;
+    text-align: center;
+    margin: 60px 100px -50px 120px;
+    
+}
+
+.faq_container {
+    box-sizing: content-box;
+    border-radius: 20px;
+    margin: 100px auto;
+    /* padding: 30px 25px; */
+    max-width: 800px;
+    border: thin solid rgb(211, 211, 211);
+}
+.faq_question {
+    box-sizing: border-box;
+    /* border-radius: 50px; */
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    /* margin: 20px; */
+    padding: 20px;
+    width: 100%;
+}
+.faq_question:hover{
+    background-color: rgb(211, 211, 211);
+}
+.faq_answer_container {
+    display: none;
+    /* width: 100%; */
+    text-align: justify;
+    padding: 0px 20px 20px 20px;
+    background-color: #dfdfff;
+}
